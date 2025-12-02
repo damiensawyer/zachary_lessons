@@ -1,0 +1,32 @@
+# Lua
+*.lua~
+luacov.*.out
+luacov.report.out
+luacov.stats.out
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# LuaRocks
+*.rock
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+test_output/

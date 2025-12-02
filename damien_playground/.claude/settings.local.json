@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(fish -c \"source ~/.config/fish/completions/gh-repo-clone.fish && type __fish_gh_list_repos\")",
+      "Bash(gh repo list:*)",
+      "Bash(cat:*)",
+      "Bash(fish -c \"complete -c gh | grep clone\")",
+      "Bash(fish -c \"complete -C ''gh repo clone ''\")",
+      "Bash(fish:*)",
+      "Bash(gh alias:*)",
+      "Bash(lua -v:*)",
+      "Bash(luarocks --version:*)",
+      "Bash(luarocks list:*)",
+      "Bash(luarocks install:*)",
+      "Bash(git restore:*)",
+      "Bash(lua:*)",
+      "Bash(LUA_PATH=\"src/?.lua;;\" lua:*)",
+      "Bash(chmod:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(./run.sh:*)",
+      "Bash(tree:*)",
+      "Bash(readlink:*)",
+      "Bash(stow -D:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
