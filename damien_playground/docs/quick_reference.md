@@ -10,12 +10,13 @@ luarocks install --local busted lsqlite3 luacov
 lua src/app.lua
 
 # Run tests
-busted                        # All tests
-busted tests/db_spec.lua      # Single file
-busted --coverage             # With coverage
+./run.sh busted                        # All tests
+./run.sh busted tests/db_spec.lua      # Single file
 
-# View coverage
-luacov && cat luacov.report.out
+# Generate and view coverage report
+./run.sh busted --coverage             # 1. Generate stats file
+./run.sh luacov                        # 2. Generate HTML report
+# 3. Open luacov.report.html in your browser
 ```
 
 ## Core Syntax

@@ -49,8 +49,10 @@ busted
 # Run specific test file
 busted tests/db_spec.lua
 
-# Run with coverage
-busted --coverage && luacov && cat luacov.report.out
+# Run with coverage and view HTML report
+./run.sh busted --coverage    # 1. Generate stats file
+./run.sh luacov               # 2. Generate HTML report
+# 3. Open luacov.report.html in your browser
 
 # Alternative: Use helper script (sets paths automatically)
 ./run.sh busted
