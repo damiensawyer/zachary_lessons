@@ -10,11 +10,25 @@ print("My favorite number is", favorite_number)
 -- Words (we call these "strings")
 my_name = "Zachary"
 favorite_food = "pizza"
+print("Hello, my name", my_name)
 print("Hello, my name is", my_name)
 print("I love", favorite_food)
 
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 'Damien', 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+
 -- We can change what's in our variables!
-my_age = 10  -- Happy birthday!
+my_age = 10 -- Happy birthday!
 print("Next year I will be", my_age)
 
 -- Math with variables
@@ -43,7 +57,7 @@ local sentence2 = "I have " .. count .. " " .. animal .. "s as pets!"
 print(sentence2)
 
 -- Method 3: Using table.concat() for multiple pieces
-local pieces = {"I", "like", "to", "eat", "", favorite_food}
+local pieces = { "I", "like", "to", "eat", "", favorite_food }
 local sentence3 = table.concat(pieces, " ")
 print(sentence3)
 
@@ -57,3 +71,4 @@ print(sentence3)
 -- 2. Create variables for how many pets you have
 -- 3. Print a sentence using your variables
 -- 4. Try using string.format() to make a sentence with 3 or more variables!
+
