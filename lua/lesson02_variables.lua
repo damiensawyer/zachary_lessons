@@ -1,10 +1,13 @@
 -- Lesson 2: Variables - Storing Information
+-- 
 -- Variables are like boxes where we can store information!
-
--- Numbers
+-- Hello Zachy!!! I love you!!!!!
+-- Numbers /lesson02_variables .
 my_age = 9
 favorite_number = 42
 print("I am", my_age, "years old")
+print("My favorite number is", favorite_number)
+print("My favorite number is asdjalkjsdl as", favorite_number)
 print("My favorite number is", favorite_number)
 
 -- Words (we call these "strings")
@@ -16,14 +19,6 @@ print("I love", favorite_food)
 
 print(1, 2, 3, 4, 5, 6, 7, 8, 9)
 print(1, 2, 3, 4, 5, 'Damien', 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
-print(1, 2, 3, 4, 5, 6, 7, 8, 9)
 print(1, 2, 3, 4, 5, 6, 7, 8, 9)
 
 
