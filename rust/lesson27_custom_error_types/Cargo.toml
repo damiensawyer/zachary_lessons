@@ -1,0 +1,6 @@
+[package]
+name = "lesson27_custom_error_types"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

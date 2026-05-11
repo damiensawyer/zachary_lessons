@@ -1,0 +1,92 @@
+{
+    // ==================== LANGUAGE CONFIGURATION ====================
+    
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.suggestSelection": "first"
+    },
+
+    // ==================== RUST-ANALYZER CONFIGURATION ====================
+    // These settings make rust-analyzer provide the best learning experience
+    
+    // Auto-save and format on save for consistent code style
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.cargo.buildOnSave": true,
+    
+    // Enable all features for better intellisense
+    "rust-analyzer.cargo.features": "all",
+
+    // Show diagnostics inline (highly recommended for learning)
+    "rust-analyzer.diagnostics.enableAll": true,
+    "rust-analyzer.inlayHints.chainedMethodCalls.enable": true,
+    "rust-analyzer.inlayHints.typeHints.enable": true,
+
+    // ==================== ERROR LENS CONFIGURATION ====================
+    // If you install the ErrorLens extension, these settings help
+    
+    // Show errors as warnings when using errorlens (less intrusive)
+    // "errorLens.enabled": true,
+    // "errorLens.showWarningsAsUnderlines": false,
+
+    // ==================== CLIPPY CONFIGURATION ====================
+    // Enable clippy for catching bugs before they happen
+    
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+
+    // ==================== FORMATTING CONFIGURATION ====================
+    
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false  // Set to true if you prefer formatting on typing
+    },
+
+    // Indent with tabs (Rust convention) or spaces (4 spaces)
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "rust-analyzer.procMacro.enable": true,
+
+    // ==================== SEARCH/REPLACE CONFIGURATION ====================
+    
+    "[rust]": {
+        "search.usePCP2": false
+    },
+
+    // ==================== TERMINAL INTEGRATION ====================
+    
+    // Open terminal in project directory automatically
+    "terminal.integrated.defaultProfile.linux": "zsh",  // or "bash"
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh"
+        },
+        "bash": {
+            "path": "bash"
+        }
+    },
+
+    // ==================== GITHUB INTEGRATION (Optional) ====================
+    
+    "githubPullRequests.showOpenButton": true,
+    "githubCopilot.enable": {
+        "*": true
+    },
+
+    // ==================== WORKSPACE SETTINGS ====================
+    
+    // Remember window state for easy reopening of your workspace
+    "workbench.startupEditor": "welcome",
+    
+    // Sidebar settings - collapse everything except current file tree
+    "workbench.sideBar.location": "left",
+    
+    // Minimize side panel when no file is open
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/*.md": true,
+        "**/*.txt": true,
+        "**/*.toml": false  // Keep Cargo.toml visible
+    }
+}
